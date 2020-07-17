@@ -1,5 +1,4 @@
-
-#print('Press intro to exit')
+#! /usr/bin/env python3
 
 from common.logger import logger, os
 from common.WebSvr import WebService, requests

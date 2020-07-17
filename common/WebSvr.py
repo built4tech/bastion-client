@@ -2,8 +2,6 @@ import requests
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-
-#SITE = "http://127.0.0.1:8000"
 SITE = "http://built4tech.herokuapp.com"
 URL_BASE = "/api/v1"
 
