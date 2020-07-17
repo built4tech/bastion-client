@@ -1,4 +1,5 @@
 #! /usr/bin/env python3
+# -*- coding: latin-1 -*-
 
 from common.logger import logger, os
 from common.WebSvr import WebService, requests

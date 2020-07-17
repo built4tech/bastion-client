@@ -1,3 +1,6 @@
+#! /usr/bin/env python3
+# -*- coding: latin-1 -*-
+
 import requests
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

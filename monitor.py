@@ -1,9 +1,10 @@
 #! /usr/bin/env python3
+# -*- coding: latin-1 -*-
+
 import argparse
 import socket
 import ipaddress
 import time
-import queue
 import threading
 import json
 import os
@@ -12,6 +13,11 @@ from scapy.all import *
 
 from common.logger import logger
 from common.WebSvr import WebService
+
+try:
+    import queue
+except ImportError:
+    import Queue as queue
 
 # Colas
 q_DB = queue.Queue()
