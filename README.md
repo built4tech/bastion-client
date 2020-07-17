@@ -61,21 +61,21 @@ Linux
 
 - Execute monitor.py with sudo privileges
 
-sudo python3 monitor.py -t <token-value>
+sudo python3 monitor.py -t token-value
 
 - Execute enriching.py with sudo privileges
 
-sudo python3 enriching.py -t <token-value>
+sudo python3 enriching.py -t token-value
 
 Windows
 
 - Execute monitor.py
 
-python monitor.py -t <token-value>
+python monitor.py -t token-value
 
 - Execute enriching.py
 
-python enriching.py -t <token-value>
+python enriching.py -t token-value
 
 
 
