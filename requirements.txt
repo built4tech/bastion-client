@@ -1,4 +1,4 @@
 scapy==2.4.3
 requests==2.24.0
-urllib3==1.25.9
+urllib3==1.26.5
 python-nmap==0.6.1
